@@ -3,10 +3,10 @@ def fizz_buzz(n)
     'FizzBuzz'
   elsif n % 3 == 0
     'Fizz'
-  elsif 5 == 0
+  elsif n % 5 == 0
     'Buzz'
   else
-    n
+    n.to_s
   end
 end
 
