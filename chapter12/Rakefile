@@ -1,0 +1,11 @@
+# Rakeの基本的な使い方
+
+# hello_worldという名前のタスクを定義する
+# 名前空間を使ってタスクをグループ分けする
+namespace: my_tasks do
+# タスクにはdescメソッドを使ってタスクの説明を入れることもできる
+desc 'テスト用のタスクです。'
+task :hello_world do
+  # ブロックの中がタスクとして実行される処理になる
+  puts 'Hello, world!'
+end

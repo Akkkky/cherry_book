@@ -11,5 +11,5 @@ def fizz_buzz(n)
 end
 
 (1..100).each do |n|
-  puts fizz_buzz(n)
+  fizz_buzz(n)
 end
